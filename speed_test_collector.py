@@ -11,13 +11,13 @@ def speed_test():
     print("This may take 30-60 seconds...")
     st.get_servers(servers)
 
-    print("Finding best server...")
+    print("📡 Finding best server...")
     st.get_best_server()
 
-    print("Testing download speed...")
+    print("⬇️ Testing download speed...")
     st.download()
 
-    print("Testing upload speed...")
+    print("⬆️ Testing upload speed...")
     st.upload()
 
     results_dict = st.results.dict()
@@ -32,10 +32,13 @@ def speed_test():
 
     download = round(number=results_dict['download'] / 1000000, ndigits=2)
     print('Download:', download, 'Mbps')
+
     upload = round(number=results_dict['upload'] / 1000000, ndigits=2)
     print('Upload:', upload, 'Mbps')
-    ping = results_dict['ping']
+
+    ping = round(number=results_dict['ping'], ndigits=1)
     print('Latency:', ping, 'ms')
+
     server_name = results_dict['server']['sponsor']
     print('Server name:', server_name)
     server_location = f"{results_dict['server']['name']}, {results_dict['server']['country']}"
@@ -58,6 +61,9 @@ def save_to_csv(data):
         df.to_csv('speed_test_data.csv', mode='a', header=not os.path.isfile('speed_test_data.csv'), index=False)
     else:
         df.to_csv('speed_test_data.csv', mode='w', header=not os.path.isfile('speed_test_data.csv'), index=False)
+
+
+        
 
 
 if __name__ == "__main__":

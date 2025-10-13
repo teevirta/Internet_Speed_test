@@ -1,3 +1,5 @@
 timestamp,download_mbps,upload_mbps,ping_ms,server_name,server_location,isp
 2025-10-13 08:36:36,361.91,231.95,9.544,RETN,"Stockholm, Sweden",DNA Oyj
 2025-10-13 08:38:03,429.03,259.44,10.128,RETN,"Stockholm, Sweden",DNA Oyj
+2025-10-13 10:10:28,417.39,304.95,8.1,Valoo,"Helsinki, Finland",DNA Oyj
+2025-10-13 10:22:53,412.32,259.53,8.6,DNA Welho Oy,"Helsinki, Finland",DNA Oyj
