@@ -54,14 +54,10 @@ def save_to_csv(data):
     if os.path.isfile('speed_test_data.csv'):
         df_csv = pd.read_csv('speed_test_data.csv')
         print(df_csv)
-        df_csv = pd.concat([df_csv, df], ignore_index=True)
+        # df_csv = pd.concat([df_csv, df], ignore_index=True)
         df.to_csv('speed_test_data.csv', mode='a', header=not os.path.isfile('speed_test_data.csv'), index=False)
-
     else:
-        df.to_csv('speed_test_data.csv', mode='a', header=not os.path.isfile('speed_test_data.csv'), index=False)
-
-
-
+        df.to_csv('speed_test_data.csv', mode='w', header=not os.path.isfile('speed_test_data.csv'), index=False)
 
 
 if __name__ == "__main__":
