@@ -63,7 +63,6 @@ def save_to_csv(data):
         df.to_csv('speed_test_data.csv', mode='w', header=not os.path.isfile('speed_test_data.csv'), index=False)
 
 
-        
 
 
 if __name__ == "__main__":

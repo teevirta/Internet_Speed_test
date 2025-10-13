@@ -31,16 +31,21 @@ def get_data():
     mean_ping_ms = ping_speeds.mean()
     ping_deviation = round(number=ping_ms - mean_ping_ms, ndigits=1)
 
+    # timestamps
+    timestamps = df['timestamp']
+
     return rows, download_mbps, upload_mbps, ping_ms, server_name, \
         server_location, isp, download_deviation, upload_deviation, \
-        ping_deviation, timestamp
+        ping_deviation, timestamp, df, download_speeds, timestamps
 
 
 # Streamlit dashboard
 def streamlit_webpage():
     rows, download_mbps, upload_mbps, ping_ms, server_name, server_location, \
-        isp, download_deviation, upload_deviation, ping_deviation, timestamp \
-              = get_data()
+        isp, download_deviation, upload_deviation, ping_deviation, timestamp, \
+             df, download_speeds, timestamps = get_data()
+    
+    
     st.set_page_config(layout="wide")
     st.title("🌍 Internet Speed Monitor")
     st.text("Track your internet performance over time")
@@ -79,6 +84,21 @@ def streamlit_webpage():
     st.write(f":gray[ISP: {isp}]")
     st.write(f":gray[Server: {server_name} ({server_location})]")
     st.write(f":gray[Last test: {timestamp}]")
+
+    st.divider()
+
+    st.header('Speed Trends')
+
+    print(download_speeds)
+    print('jee')
+    print(timestamps)
+
+    print('jee')
+    print(df)
+    print(df['timestamp'])
+    print(df['download_mbps'])
+
+    st.line_chart(df, x='timestamp', y='download_mbps')
 
 
 streamlit_webpage()
