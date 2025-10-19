@@ -1,12 +1,10 @@
 timestamp,download_mbps,upload_mbps,ping_ms,server_name,server_location,isp
-2025-10-13 08:36:36,361.91,231.95,9.544,RETN,"Stockholm, Sweden",DNA Oyj
-2025-10-13 08:38:03,429.03,259.44,10.128,RETN,"Stockholm, Sweden",DNA Oyj
-2025-10-13 10:10:28,417.39,304.95,8.1,Valoo,"Helsinki, Finland",DNA Oyj
-2025-10-13 10:22:53,412.32,259.53,8.6,DNA Welho Oy,"Helsinki, Finland",DNA Oyj
-2025-10-13 15:38:21,329.91,231.34,9.1,Suomi Communications Oy,"Espoo, Finland",DNA Oyj
-2025-10-13 15:39:24,405.21,234.58,6.8,Suomi Communications Oy,"Espoo, Finland",DNA Oyj
-2025-10-13 15:39:42,373.79,272.09,6.9,Suomi Communications Oy,"Espoo, Finland",DNA Oyj
-2025-10-13 15:40:33,430.34,225.13,6.9,Suomi Communications Oy,"Espoo, Finland",DNA Oyj
-2025-10-13 15:40:50,446.33,305.91,7.2,Suomi Communications Oy,"Espoo, Finland",DNA Oyj
-2025-10-13 15:43:03,355.36,235.36,8.0,Suomi Communications Oy,"Espoo, Finland",DNA Oyj
-2025-10-13 15:43:23,450.08,305.41,8.1,Suomi Communications Oy,"Espoo, Finland",DNA Oyj
+2025-08-17 12:43:28,304.95,233.4,9.3,Cinia Oy,"Helsinki, Finland",DNA Oyj
+2025-09-18 12:44:26,307.83,208.46,7.0,Cinia Oy,"Helsinki, Finland",DNA Oyj
+2025-10-10 12:45:36,300.97,197.15,7.3,Cinia Oy,"Helsinki, Finland",DNA Oyj
+2025-10-19 12:45:36,300.97,197.15,7.3,Cinia Oy,"Helsinki, Finland",DNA Oyj
+2025-10-20 12:47:44,296.04,208.87,7.4,Cinia Oy,"Helsinki, Finland",DNA Oyj
+2025-10-25 12:44:26,307.83,208.46,7.0,Cinia Oy,"Helsinki, Finland",DNA Oyj
+2025-10-26 12:45:36,300.97,197.15,7.3,Cinia Oy,"Helsinki, Finland",DNA Oyj
+2025-10-27 12:47:44,296.04,208.87,7.4,Cinia Oy,"Helsinki, Finland",DNA Oyj
+

@@ -64,7 +64,6 @@ def save_to_csv(data):
 
 
 
-
 if __name__ == "__main__":
     print()
     data = speed_test()
