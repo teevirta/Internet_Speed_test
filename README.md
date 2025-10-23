@@ -95,8 +95,6 @@ Open the provided link (usually http://localhost:8501) in your browser to explor
 ## 📈 Example Visualization
 
 https://teevirta-internet-speed-test-speed-test-dashboard-nicnsa.streamlit.app/
-https://teevirta-internet-speed-test-speed-test-dashboard-nicnsa.streamlit.app/
-
 
 ---
 
