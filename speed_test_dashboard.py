@@ -211,7 +211,7 @@ def main():
                                                     "All time"),
                                                     index=3)                                                    
 
-    st.title("🌍 Internet Speed Monitor")
+    st.title("🌐 Internet Speed Monitor")
     st.text("Track your internet performance over time")
     st.header("Latest Speed Test")
     df_view = timerange_filter(df, selection)

@@ -1,10 +1,26 @@
 timestamp,download_mbps,upload_mbps,ping_ms,server_name,server_location,isp
-2025-08-17 12:43:28,304.95,233.4,9.3,Cinia Oy,"Helsinki, Finland",DNA Oyj
-2025-09-18 12:44:26,307.83,208.46,7.0,Cinia Oy,"Helsinki, Finland",DNA Oyj
-2025-10-10 12:45:36,300.97,197.15,7.3,Cinia Oy,"Helsinki, Finland",DNA Oyj
-2025-10-19 12:45:36,300.97,197.15,7.3,Cinia Oy,"Helsinki, Finland",DNA Oyj
-2025-10-20 12:47:44,296.04,208.87,7.4,Cinia Oy,"Helsinki, Finland",DNA Oyj
-2025-10-25 12:44:26,307.83,208.46,7.0,Cinia Oy,"Helsinki, Finland",DNA Oyj
-2025-10-26 12:45:36,300.97,197.15,7.3,Cinia Oy,"Helsinki, Finland",DNA Oyj
-2025-10-27 12:47:44,296.04,208.87,7.4,Cinia Oy,"Helsinki, Finland",DNA Oyj
-
+2025-09-15 12:00,304.95,233.4,9.3,Cinia Oy,"Helsinki, Finland",DNA Oyj
+2025-09-16 12:00,307.83,208.46,7.0,Cinia Oy,"Helsinki, Finland",DNA Oyj
+2025-09-17 12:00,300.97,197.15,7.3,Cinia Oy,"Helsinki, Finland",DNA Oyj
+2025-09-18 12:00,300.97,197.15,7.3,Cinia Oy,"Helsinki, Finland",DNA Oyj
+2025-09-19 12:00,296.04,208.87,7.4,Cinia Oy,"Helsinki, Finland",DNA Oyj
+2025-09-20 12:00,307.83,208.46,7.0,Cinia Oy,"Helsinki, Finland",DNA Oyj
+2025-09-21 12:00,300.97,197.15,7.3,Cinia Oy,"Helsinki, Finland",DNA Oyj
+2025-09-22 12:00,296.04,208.87,7.4,Cinia Oy,"Helsinki, Finland",DNA Oyj
+2025-09-23 12:00,310.3,209.13,7.2,Valoo,"Helsinki, Finland",Telia Finland
+2025-09-24 12:00,301.39,207.67,8.0,Valoo,"Helsinki, Finland",Telia Finland
+2025-09-25 12:00,292.57,236.35,12.3,Cuitunet Oy,"Turku, Finland",DNA Oyj
+2025-09-26 12:00,318.34,232.39,9.2,Cuitunet Oy,"Turku, Finland",DNA Oyj
+2025-09-27 12:00,343.5,294.63,8.9,Cuitunet Oy,"Turku, Finland",DNA Oyj
+2025-09-28 12:00,372.46,234.69,9.2,Cuitunet Oy,"Turku, Finland",DNA Oyj
+2025-09-29 12:00,362.04,231.81,9.6,Cuitunet Oy,"Turku, Finland",DNA Oyj
+2025-09-30 12:00,315.86,200.8,9.0,Cuitunet Oy,"Turku, Finland",DNA Oyj
+2025-10-01 12:00,353.28,222.71,9.3,Cuitunet Oy,"Turku, Finland",DNA Oyj
+2025-10-02 12:00,318.7,227.33,10.0,Cuitunet Oy,"Turku, Finland",DNA Oyj
+2025-10-03 12:00,322.22,209.07,9.0,Cuitunet Oy,"Turku, Finland",DNA Oyj
+2025-10-04 12:00,321.53,219.1,9.1,Cuitunet Oy,"Turku, Finland",DNA Oyj
+2025-10-05 12:00,344.73,226.87,9.1,Cuitunet Oy,"Turku, Finland",DNA Oyj
+2025-10-06 12:00,324.68,234.28,9.2,Cuitunet Oy,"Turku, Finland",DNA Oyj
+2025-10-07 12:00,332.45,198.13,9.3,Cuitunet Oy,"Turku, Finland",DNA Oyj
+2025-10-08 12:00,295.31,237.46,9.2,Cuitunet Oy,"Turku, Finland",DNA Oyj
+2025-10-09 12:00,319.54,211.18,9.0,Cuitunet Oy,"Turku, Finland",DNA Oyj
