@@ -94,7 +94,7 @@ Open the provided link (usually http://localhost:8501) in your browser to explor
 
 ## 📈 Example Visualization
 
-![Internet Speed Dashboard Screenshot](https://via.placeholder.com/1000x500.png?text=Internet+Speed+Dashboard+Preview)
+![Internet Speed Dashboard](https://teevirta-internet-speed-test-speed-test-dashboard-nicnsa.streamlit.app/)
 
 ---
 
